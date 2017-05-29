@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css?family=Lora|Work+Sans:400,600');
+
+/*Base styles*/
+
+html {
+  /*what's a good base font size for mobile, iPad, web?*/
+  font-size: 16px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 18px;
+  }
+}
+
+body {
+  font-family: 'Lora', Georgia, serif;
+  line-height: 1.5;
+}
+
+h1, h2, h3 {
+  font-family: 'Work Sans', Helvetica, sans-serif;
+  font-weight: 600;
+}
+
+h2, h3 {
+  line-height: 1.5;
+}
+
+h1 {
+  font-size: 4rem;
+}
+
+h2 {
+  font-size: 2.5rem;
+}
+
+h3 {
+  font-size: 1.5rem;
+}
+
+small {
+  font-size: 0.875rem;
+}
+
+a {
+  color: #ff6a5c;
+}
+
+li {
+  margin-bottom: 0.5rem;
+}
+
+.white {
+  color: #FFF;
+}
+
+.light-grey {
+  color: #F2F2F7;
+  /*alt: EBEBED*/
+}
+
+/*.pt1 {
+  padding-top: 0.5rem;
+}
+
+.pt2 {
+  padding-top: 1rem;
+}
+
+.pt3 {
+  padding-top: 2rem;
+}
+
+.pb1 {
+  padding-bottom: 0.5rem;
+}
+
+.pb2 {
+  padding-bottom: 1rem;
+}
+
+.pb3 {
+  padding-bottom: 2rem;
+}*/
+
+/*Base styles - layout*/
+
+.container-fluid {
+  padding: 0;
+}
+
+.content-container {
+  max-width: 62.5rem;
+  margin: 2rem auto;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+
+
+/*Page specific styles*/
+
+.cover {
+  background-color: #303944;
+  padding-bottom: 5rem;
+  padding-top: 5rem;
+  /*height: 100vh;*/
+}
