@@ -1,9 +1,10 @@
-@import url('https://fonts.googleapis.com/css?family=Lora|Work+Sans:400,600');
+@import url('https://fonts.googleapis.com/css?family=Lora:400,400i|Work+Sans:400,600');
 
 // Variables
 $accent: #ff6a5c;
+$secondary-text: #666;
 $dark-bg: #303944;
-$light-bg: #EBEBED;
+$light-bg: #f2f5f7;
 $white: #FFF;
 
 /*Base styles*/
@@ -46,7 +47,12 @@ h3 {
 }
 
 small {
+  color: $secondary-text;
   font-size: 0.875rem;
+}
+
+em {
+  font-style: italic;
 }
 
 a {

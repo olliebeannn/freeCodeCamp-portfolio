@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Lora|Work+Sans:400,600");
+@import url("https://fonts.googleapis.com/css?family=Lora:400,400i|Work+Sans:400,600");
 /*Base styles*/
 html {
   /*what's a good base font size for mobile, iPad, web?*/
@@ -28,7 +28,11 @@ h3 {
   font-size: 1.5rem; }
 
 small {
+  color: #666666;
   font-size: 0.875rem; }
+
+em {
+  font-style: italic; }
 
 a {
   color: #ff6a5c; }
@@ -40,7 +44,7 @@ li {
   color: white; }
 
 .page--lightBg {
-  background-color: #ebebed; }
+  background-color: #f2f5f7; }
 
 /*Base styles - layout*/
 .container-fluid {
