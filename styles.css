@@ -69,5 +69,6 @@ li {
   /*height: 100vh;*/ }
 
 .social-media__icon {
+  fill: #ff6a5c;
   height: 48px;
   margin: 0.5rem; }
