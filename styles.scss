@@ -1,5 +1,11 @@
 @import url('https://fonts.googleapis.com/css?family=Lora|Work+Sans:400,600');
 
+// Variables
+$accent: #ff6a5c;
+$dark-bg: #303944;
+$light-bg: #EBEBED;
+$white: #FFF;
+
 /*Base styles*/
 
 html {
@@ -44,7 +50,7 @@ small {
 }
 
 a {
-  color: #ff6a5c;
+  color: $accent;
 }
 
 li {
@@ -52,37 +58,12 @@ li {
 }
 
 .white {
-  color: #FFF;
+  color: $white;
 }
 
-.light-grey {
-  color: #F2F2F7;
-  /*alt: EBEBED*/
+.page--lightBg {
+  background-color: $light-bg;
 }
-
-/*.pt1 {
-  padding-top: 0.5rem;
-}
-
-.pt2 {
-  padding-top: 1rem;
-}
-
-.pt3 {
-  padding-top: 2rem;
-}
-
-.pb1 {
-  padding-bottom: 0.5rem;
-}
-
-.pb2 {
-  padding-bottom: 1rem;
-}
-
-.pb3 {
-  padding-bottom: 2rem;
-}*/
 
 /*Base styles - layout*/
 
@@ -92,16 +73,15 @@ li {
 
 .content-container {
   max-width: 62.5rem;
-  margin: 2rem auto;
-  padding-left: 1.5rem;
-  padding-right: 1.5rem;
+  margin: 0 auto;
+  padding: 2rem;
 }
 
 
 /*Page specific styles*/
 
 .cover {
-  background-color: #303944;
+  background-color: $dark-bg;
   padding-bottom: 5rem;
   padding-top: 5rem;
   /*height: 100vh;*/
