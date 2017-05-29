@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Lora:400,400i|Work+Sans:400,600");
+@import url("https://fonts.googleapis.com/css?family=Lora:400|Work+Sans:400,600");
 /*Base styles*/
 html {
   /*what's a good base font size for mobile, iPad, web?*/
@@ -31,9 +31,6 @@ small {
   color: #666666;
   font-size: 0.875rem; }
 
-em {
-  font-style: italic; }
-
 a {
   color: #ff6a5c; }
 
@@ -55,9 +52,22 @@ li {
   margin: 0 auto;
   padding: 2rem; }
 
+.flex {
+  display: flex; }
+
+.flex-jc-center {
+  justify-content: center; }
+
+.flex-wrap {
+  flex-wrap: wrap; }
+
 /*Page specific styles*/
 .cover {
   background-color: #303944;
   padding-bottom: 5rem;
   padding-top: 5rem;
   /*height: 100vh;*/ }
+
+.social-media__icon {
+  height: 48px;
+  margin: 0.5rem; }

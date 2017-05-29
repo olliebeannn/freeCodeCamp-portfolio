@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Lora:400,400i|Work+Sans:400,600');
+@import url('https://fonts.googleapis.com/css?family=Lora:400|Work+Sans:400,600');
 
 // Variables
 $accent: #ff6a5c;
@@ -51,9 +51,9 @@ small {
   font-size: 0.875rem;
 }
 
-em {
-  font-style: italic;
-}
+// em {
+//   font-style: italic;
+// }
 
 a {
   color: $accent;
@@ -83,6 +83,18 @@ li {
   padding: 2rem;
 }
 
+.flex {
+  display: flex;
+}
+
+.flex-jc-center {
+  justify-content: center;
+}
+
+.flex-wrap {
+  flex-wrap: wrap;
+}
+
 
 /*Page specific styles*/
 
@@ -91,4 +103,11 @@ li {
   padding-bottom: 5rem;
   padding-top: 5rem;
   /*height: 100vh;*/
+}
+
+// Component Specific Styles
+
+.social-media__icon {
+  height: 48px;
+  margin: 0.5rem;
 }
