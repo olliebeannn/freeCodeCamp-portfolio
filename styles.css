@@ -61,6 +61,12 @@ li {
 .flex-wrap {
   flex-wrap: wrap; }
 
+.mt1 {
+  margin-top: 0.5rem; }
+
+.mt2 {
+  margin-top: 1rem; }
+
 /*Page specific styles*/
 .cover {
   background-color: #303944;
@@ -72,3 +78,6 @@ li {
   fill: #ff6a5c;
   height: 48px;
   margin: 0.5rem; }
+
+.portfolioCard img {
+  width: 95%; }

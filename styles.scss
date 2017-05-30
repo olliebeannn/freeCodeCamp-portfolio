@@ -95,6 +95,14 @@ li {
   flex-wrap: wrap;
 }
 
+.mt1 {
+  margin-top: 0.5rem;
+}
+
+.mt2 {
+  margin-top: 1rem;
+}
+
 
 /*Page specific styles*/
 
@@ -111,4 +119,12 @@ li {
   fill: $accent;
   height: 48px;
   margin: 0.5rem;
+}
+
+.portfolioCard {
+
+  img {
+    width: 95%;
+  }
+
 }
